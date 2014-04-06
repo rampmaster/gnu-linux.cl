@@ -65,7 +65,8 @@
                             <img src="http://www.flisol.info/QueEs?action=AttachFile&do=get&target=banner2014.png" class="img-responsive">
                         </div>
                         <div class="col-sm-6">
-                            Some text here
+                            <strong>10º FLISOL</strong>: 26 de abril 2014<br/>
+                            Más Información en <a href="http://flisol.info/">flisol.info</a>
                         </div>
                     </div>
                 </div>
