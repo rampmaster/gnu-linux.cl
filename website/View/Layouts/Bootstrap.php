@@ -66,7 +66,7 @@
                         </div>
                         <div class="col-sm-6">
                             <strong>FLISOL</strong>: es el evento de difusión de Software Libre más grande en Latinoamérica.<br/>
-                            Ver en<a href="http://flisol.info/">flisol.info</a>
+                            Ver en <a href="http://flisol.info/">flisol.info</a>
                         </div>
                     </div>
                 </div>
