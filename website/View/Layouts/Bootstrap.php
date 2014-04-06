@@ -54,7 +54,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h1>Bienvenidos a GNU-Linux Chile
+                <h1>GNU-Linux Chile
                     <p class="lead">Tu portal de información sobre GNU y Linux</p>
                 </h1>
             </div>
@@ -62,7 +62,7 @@
                 <div class="well well-lg">
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="//placehold.it/180x100" class="img-responsive">
+                            <img src="http://www.flisol.info/QueEs?action=AttachFile&do=get&target=banner2014.png" class="img-responsive">
                         </div>
                         <div class="col-sm-6">
                             Some text here
