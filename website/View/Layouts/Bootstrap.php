@@ -65,8 +65,8 @@
                             <img src="http://www.flisol.info/QueEs?action=AttachFile&do=get&target=banner2014.png" class="img-responsive">
                         </div>
                         <div class="col-sm-6">
-                            <strong>10º FLISOL</strong>: 26 de abril 2014<br/>
-                            Más Información en <a href="http://flisol.info/">flisol.info</a>
+                            <strong>FLISOL</strong>: es el evento de difusión de Software Libre más grande en Latinoamérica.<br/>
+                            Ver en<a href="http://flisol.info/">flisol.info</a>
                         </div>
                     </div>
                 </div>
