@@ -1,5 +1,12 @@
 {
 	"config": {
 		"vendor-dir": "extensions"
+	},
+	"require": {
+		"sowerphp/app": "dev-master",
+		"lapinator.net/ods-php-generator": "dev-master"
+	},
+	"require-dev": {
+		"sowerphp/general": "dev-master"
 	}
 }

@@ -1,0 +1,281 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "3078be97e75488dd6024e097db68ca31",
+    "packages": [
+        {
+            "name": "lapinator.net/ods-php-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/estebandelaf/odsPhpGenerator.git",
+                "reference": "a17fd8ff14f865c8819e03607498c708bc0d3505"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/estebandelaf/odsPhpGenerator/zipball/a17fd8ff14f865c8819e03607498c708bc0d3505",
+                "reference": "a17fd8ff14f865c8819e03607498c708bc0d3505",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "The ods file generator in php",
+            "time": "2014-04-06 00:37:23"
+        },
+        {
+            "name": "sowerphp/app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SowerPHP/extension-app.git",
+                "reference": "5cf85568ec851bfbfa2f408ba5b83f5589429a43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SowerPHP/extension-app/zipball/5cf85568ec851bfbfa2f408ba5b83f5589429a43",
+                "reference": "5cf85568ec851bfbfa2f408ba5b83f5589429a43",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.5"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Equipo de SowerPHP",
+                    "homepage": "https://github.com/sowerphp/extension-app/graphs/contributors"
+                }
+            ],
+            "description": "Extensión: app",
+            "homepage": "http://sowerphp.org",
+            "keywords": [
+                "extension",
+                "sowerphp"
+            ],
+            "time": "2014-04-06 00:32:18"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "libchart/libchart",
+            "version": "1.4.0",
+            "source": {
+                "type": "hg",
+                "url": "https://code.google.com/r/alexanderstehlik-libchart-package/",
+                "reference": "de03e29ea70b"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Libchart\\": "libchart/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Marc Trémeaux",
+                    "homepage": "http://naku.dohcrew.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander Stehlik",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple PHP chart drawing library",
+            "homepage": "http://naku.dohcrew.com/libchart/pages/introduction/",
+            "keywords": [
+                "bar charts",
+                "chart",
+                "charts",
+                "line charts",
+                "pie charts"
+            ],
+            "time": "2013-10-20 00:21:30"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "e69a5e4d0ffa7fb6f171859e0a04346e580df30b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/e69a5e4d0ffa7fb6f171859e0a04346e580df30b",
+                "reference": "e69a5e4d0ffa7fb6f171859e0a04346e580df30b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2014-03-02 15:22:49"
+        },
+        {
+            "name": "sowerphp/general",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SowerPHP/extension-general.git",
+                "reference": "0eac12d106d04db07301c835774281dad562e764"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SowerPHP/extension-general/zipball/0eac12d106d04db07301c835774281dad562e764",
+                "reference": "0eac12d106d04db07301c835774281dad562e764",
+                "shasum": ""
+            },
+            "require": {
+                "lapinator.net/ods-php-generator": "dev-master",
+                "libchart/libchart": "1.4.0",
+                "php": "~5.5",
+                "phpoffice/phpexcel": "1.8.0",
+                "tecnick.com/tcpdf": "6.0.062"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Equipo de SowerPHP",
+                    "homepage": "https://github.com/sowerphp/extension-general/graphs/contributors"
+                }
+            ],
+            "description": "Extensión: general",
+            "homepage": "http://sowerphp.org",
+            "keywords": [
+                "extension",
+                "sowerphp"
+            ],
+            "time": "2014-04-05 21:26:18"
+        },
+        {
+            "name": "tecnick.com/tcpdf",
+            "version": "6.0.062",
+            "source": {
+                "type": "git",
+                "url": "git://git.code.sf.net/p/tcpdf/code",
+                "reference": "cada5f0ef8c1bb0799f2694ea501db437b02a2ea"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "fonts",
+                    "config",
+                    "include",
+                    "tcpdf.php",
+                    "tcpdf_parser.php",
+                    "tcpdf_import.php",
+                    "tcpdf_barcodes_1d.php",
+                    "tcpdf_barcodes_2d.php",
+                    "include/tcpdf_colors.php",
+                    "include/tcpdf_filters.php",
+                    "include/tcpdf_font_data.php",
+                    "include/tcpdf_fonts.php",
+                    "include/tcpdf_images.php",
+                    "include/tcpdf_static.php",
+                    "include/barcodes/datamatrix.php",
+                    "include/barcodes/pdf417.php",
+                    "include/barcodes/qrcode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "homepage": "http://nicolaasuni.tecnick.com"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "PDFD32000-2008",
+                "TCPDF",
+                "barcodes",
+                "datamatrix",
+                "pdf",
+                "pdf417",
+                "qrcode"
+            ],
+            "time": "2014-03-02 10:22:27"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sowerphp/app": 20,
+        "lapinator.net/ods-php-generator": 20,
+        "sowerphp/general": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

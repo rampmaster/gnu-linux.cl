@@ -23,6 +23,10 @@
 
 namespace SowerPHP\core;
 
+if(file_exists(__DIR__."/parameters.php")){
+	include __DIR__."/parameters.php";
+}
+
 /**
  * @file core.php
  * Configuración propia de cada proyecto
@@ -39,15 +43,16 @@ Configure::write('page.body.title', 'GNU-Linux');
 // Menú principal del sitio web
 Configure::write('nav.website', array(
     '/inicio'=>'Inicio',
+    '/contacto'=>'Contacto',
 ));
 
 // Configuración para la base de datos
-/*Configure::write('database.default', array(
-    'type' => 'PostgreSQL',
-    'user' => '',
-    'pass' => '',
-    'name' => '',
-));*/
+Configure::write('database.default', array(
+    'type' => 'MySQL',
+    'user' => $dbuser,
+    'pass' => $dbpass,
+    'name' => $dbname,
+));
 
 // Configuración para el correo electrónico
 /*Configure::write('email.default', array(
